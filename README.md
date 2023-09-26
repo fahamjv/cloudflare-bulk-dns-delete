@@ -1,2 +1,3 @@
-# cloudflare-bulk-dns-delete
-This repository contains a PHP script for bulk deleting DNS records in Cloudflare using the Cloudflare API.
+# Cloudflare Bulk DNS Delete
+
+This repository provides a PHP script for bulk deleting DNS records in Cloudflare using the Cloudflare API.
