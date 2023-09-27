@@ -19,12 +19,10 @@ $zoneId = "YOUR_ZONE_ID";
  */
 $bearerToken = "YOUR_API_TOKEN";
 
-// Add this at the beginning of your script to log to a file
+// Configuration
 $logFile = "script_log.txt";
 ini_set("log_errors", 1);
 ini_set("error_log", $logFile);
-
-// Add this at the beginning of your script to increase memory limit and execution time
 ini_set("memory_limit", "512M");
 set_time_limit(0);
 
