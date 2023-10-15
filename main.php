@@ -45,7 +45,7 @@ $client = new Client([
 function fetchDNSRecords($client, $zoneId)
 {
     $response = $client->get(
-        "zones/{$zoneId}/dns_records?type=TXT&page=1&per_page=100"
+        "zones/{$zoneId}/dns_records?type=TXT"
     );
     return json_decode($response->getBody(), true);
 }
