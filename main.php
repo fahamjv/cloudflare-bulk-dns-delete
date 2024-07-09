@@ -20,7 +20,7 @@ $zoneId = $_ENV['ZONE_ID'];
  *
  * @link https://dash.cloudflare.com/profile/api-tokens
  */
-$bearerToken = $_ENV['BEARER_TOKEN'];
+$apiToken = $_ENV['API_TOKEN'];
 
 // Configuration
 $logFile = "script_log.txt";
@@ -33,7 +33,7 @@ $client = new Client([
     "base_uri" => "https://api.cloudflare.com/client/v4/",
     "headers" => [
         "Content-Type" => "application/json",
-        "Authorization" => "Bearer " . $bearerToken,
+        "Authorization" => "Bearer " . $apiToken,
     ],
 ]);
 

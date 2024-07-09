@@ -45,7 +45,7 @@ Before you begin, ensure you have met the following requirements:
 3. Open the .env file and fill it with your tokens:
     ```shell
     ZONE_ID=
-    BEARER_TOKEN=
+    API_TOKEN=
     ```
 
 4. Run the script:
