@@ -1,0 +1,4 @@
+/vendor
+composer.lock
+script_log.txt
+.env
