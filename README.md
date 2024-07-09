@@ -50,7 +50,7 @@ Before you begin, ensure you have met the following requirements:
 
 4. Run the script:
     ```shell
-    php delete_dns_records.php
+    php main.php
     ```
     The script will start deleting DNS records in batches. It will handle rate limiting and retries for failed deletions.
 
