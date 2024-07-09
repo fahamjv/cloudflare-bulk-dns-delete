@@ -20,7 +20,7 @@ Before you begin, ensure you have met the following requirements:
 
 2. Change to the project directory:
     ```shell
-    cd cloudflare-dns-record-deletion
+    cd cloudflare-bulk-dns-delete
     ```
 
 3. Install the required dependencies using Composer:
